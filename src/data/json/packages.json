@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1",
+    "name": "PROMO Abonament DDD Restaurante - 24 luni + 3 sesiuni gratuite",
+    "months": 24,
+    "prices": {"tier1": 180, "tier2": 240, "tier3": 300},
+    "description": "Alege confortul pe termen lung! Protejează-ți restaurantul timp de 24 luni la cele mai avantajoase tarife, cu servicii profesionale incluse.",
+    "is_custom": false
+  },
+  {
+    "id": "2",
+    "name": "PROMO Abonament DDD Restaurante - 12 luni",
+    "months": 12,
+    "prices": {"tier1": 180, "tier2": 240, "tier3": 300},
+    "description": "Beneficiază acum de igienă perfectă în restaurantul tău timp de 12 luni. Servicii profesionale garantate, la preț promoțional!",
+    "is_custom": false
+  },
+  {
+    "id": "3",
+    "name": "PROMO Abonament DDD Hoteluri / Pensiuni - 24 luni + 3 sesiuni gratuite",
+    "months": 24,
+    "prices": {"tier1": 180, "tier2": 240, "tier3": 300},
+    "description": "Investește inteligent și economisește cu un abonament de 24 luni dedicat hotelurilor și pensiunilor. Protecție completă garantată!",
+    "is_custom": false
+  },
+  {
+    "id": "4",
+    "type": "mp",
+    "name": "PROMO Abonament DDD Hoteluri / Pensiuni - 12 luni",
+    "months": 12,
+    "prices": {"tier1": 180, "tier2": 240, "tier3": 300},
+    "description": "Asigură confortul oaspeților și reputația unității tale turistice cu un abonament DDD de 12 luni. Eficiență și siguranță la preț redus!",
+    "is_custom": false
+  },
+  {
+    "id": "5",
+    "name": "Deratizare Dezinsecție Dezinfecție 3 sesiuni",
+    "months": 3,
+    "prices": {"tier1": 240, "tier2": 360, "tier3": 480},
+    "description": "Pachet intensiv cu 3 sesiuni profesionale de deratizare, dezinsecție și dezinfecție. Ideal pentru rezultate rapide și sigure!",
+    "is_custom": false
+  },
+  {
+    "id": "6",
+    "name": "Deratizare Dezinsecție Dezinfecție 1 sesiune",
+    "prices": {"tier1": 240, "tier2": 360, "tier3": 480},
+    "description": "Intervenție rapidă și eficientă într-o singură sesiune pentru eliminarea imediată a dăunătorilor și restabilirea igienei perfecte.",
+    "is_custom": false
+  },
+  {
+    "id": "7",
+    "name": "Pachet Dezinsecție + Deratizare Scări de Bloc",
+    "description": "Intervenim rapid și eficient asupra tuturor spațiilor comune: casa scării, ghene de gunoi, subsoluri și trepte între etaje. Locatarii vor aprecia mediul curat și sigur!",
+    "prices": null,
+    "is_custom": true
+  },
+  {
+    "id": "8",
+    "name": "Curățenie și Debarasări Subsoluri / Magazii / Garaje",
+    "description": "Eliberăm rapid și eficient spațiile aglomerate, folosind personal calificat și utilaje performante. Transformă rapid orice spațiu într-unul curat și util!",
+    "prices": null,
+    "is_custom": true
+  }
+]

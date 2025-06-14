@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://terminatorul.eu/sitemap.xml

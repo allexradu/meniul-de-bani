@@ -4,7 +4,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 
 const ContainerComponent = styled.div<{
-    height: 'auto' | '100vh'
+    height?: 'auto'
     $padding: string
 }>`
     padding: ${({ $padding }) => $padding};
@@ -17,7 +17,7 @@ const ContainerComponent = styled.div<{
 
 interface ContainerProps {
     children: React.ReactNode
-    height: 'auto' | '100vh'
+    height?: 'auto'
     padding?: string
 }
 

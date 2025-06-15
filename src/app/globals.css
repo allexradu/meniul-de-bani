@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #ff7e5f, #1e90ff);
+  background: linear-gradient(135deg, #269665, #90c46e);
   color: #000;
   font-family: var(--font-geist-sans), sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -30,19 +30,35 @@ export const Footer: React.FC = () => {
         <ThemeProvider theme={theme}>
             <div>
                 <FooterComponent>
-                    Copyright &copy; 2025 S.C. David Marian DDD Brand S.R.L.
-                    {' | '}
-                    <Link href="mailto:contact@terminatorul.eu">
-                        Contactează-ne
-                    </Link>{' '}
+                    „Meniul de Bani” este un produs realizat în parteneriat
+                    între <Link href="https://radergy.ro">Radergy S.R.L.</Link>{' '}
+                    și{' '}
+                    <Link href="https://creaseline.ro">
+                        Creaseline Solutions S.R.L.
+                    </Link>
                 </FooterComponent>
                 <FooterComponent>
-                    <Link href="/policy">Politica de confidențialitate.</Link>
+                    Disclaimer: Cu soluția noastră, restaurantele pot obține o
+                    creștere semnificativă a veniturilor, inclusiv până la
+                    dublarea acestora, în funcție de modul de implementare,
+                    contextul afacerii și alți factori specifici. Nu facem nicio
+                    garanție cu privire la sumele exacte pe care le vei obține,
+                    în afara celor stipulate în mod expres în contract.
+                </FooterComponent>
+                <FooterComponent>
+                    <Link href="/privacy">Politica de confidențialitate.</Link>
                 </FooterComponent>
 
                 <FooterComponent>
                     Designed by{' '}
                     <Link href="https://radergy.ro">Radergy S.R.L.</Link>
+                </FooterComponent>
+                <FooterComponent>
+                    Copyright &copy; 2025 Radergy S.R.L.
+                    {' | '}
+                    <Link href="mailto:contact@radergy.ro">
+                        Contactează-ne
+                    </Link>{' '}
                 </FooterComponent>
             </div>
         </ThemeProvider>

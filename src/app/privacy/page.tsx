@@ -9,44 +9,43 @@ import { ContentContainer } from '@comp/common/content-container'
 import { Footer } from '@comp/common/copytight'
 
 export const metadata: Metadata = {
-    title: 'Politica de Confidențialitate - Terminatorul de Insecte',
+    title: 'Politica de Confidențialitate - Meniul de Bani',
     description:
-        'Politica de confidențialitate a companiei Terminatorul de Insecte privind colectarea, utilizarea și protecția datelor personale ale clienților.',
+        'Politica de confidențialitate a platformei Meniul de Bani privind colectarea, utilizarea și protecția datelor personale ale clienților.',
     keywords: [
         'politica de confidențialitate',
         'protecția datelor',
         'GDPR',
         'date personale',
         'confidențialitate',
-        'termeni și condiții',
         'securitatea datelor',
-        'Terminatorul de Insecte',
+        'Meniul de Bani',
     ],
     openGraph: {
-        title: 'Politica de Confidențialitate - Terminatorul de Insecte',
+        title: 'Politica de Confidențialitate - Meniul de Bani',
         description:
-            'Politica de confidențialitate a companiei Terminatorul de Insecte privind colectarea și protecția datelor personale.',
-        url: 'https://terminatorul.eu/policy',
+            'Politica de confidențialitate a platformei Meniul de Bani privind colectarea și protecția datelor personale.',
+        url: 'https://meniuldebani.ro/politica-confidentialitate',
         images: [
             {
                 url: '/images/banner.png',
                 width: 1024,
                 height: 1024,
-                alt: 'Politica de Confidențialitate - Terminatorul de Insecte',
+                alt: 'Politica de Confidențialitate - Meniul de Bani',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Politica de Confidențialitate - Terminatorul de Insecte',
+        title: 'Politica de Confidențialitate - Meniul de Bani',
         description:
-            'Politica de confidențialitate a companiei Terminatorul de Insecte privind colectarea și protecția datelor personale.',
+            'Politica de confidențialitate a platformei Meniul de Bani privind colectarea și protecția datelor personale.',
         images: [
             {
                 url: '/images/banner.png',
                 width: 1024,
                 height: 1024,
-                alt: 'Politica de Confidențialitate - Terminatorul de Insecte',
+                alt: 'Politica de Confidențialitate - Meniul de Bani',
             },
         ],
     },
@@ -54,7 +53,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
     return (
-        <Container height="100vh" padding="20px 10px">
+        <Container padding="20px 10px">
             <Column>
                 <Logo />
                 <Content>
@@ -63,38 +62,39 @@ export default function PrivacyPolicy() {
                         <h2>1. Informații generale</h2>
                         <p>
                             Această Politică de Confidențialitate reglementează
-                            modul în care{' '}
-                            <strong>S.C. David Marian DDD Brand S.R.L.</strong>{' '}
-                            („Operatorul” sau „noi”) colectează, utilizează și
-                            protejează datele dumneavoastră cu caracter personal
-                            în conformitate cu Regulamentul (UE) 2016/679
-                            (GDPR).
+                            modul în care <strong>Meniul de Bani</strong>,
+                            operat în parteneriat de{' '}
+                            <strong>Radergy S.R.L.</strong> și{' '}
+                            <strong>Creaseline Solutions S.R.L.</strong>,
+                            colectează, utilizează și protejează datele
+                            dumneavoastră cu caracter personal în conformitate
+                            cu Regulamentul (UE) 2016/679 (GDPR).
                         </p>
                         <ul>
                             <li>
-                                <strong>Denumire:</strong> S.C. David Marian DDD
-                                Brand S.R.L.
+                                <strong>Denumire:</strong> Radergy S.R.L. și
+                                Creaseline Solutions S.R.L.
                             </li>
                             <li>
                                 <strong>Website:</strong>{' '}
                                 <a
-                                    href="https://terminatorul.eu"
+                                    href="https://meniuldebani.ro"
                                     target="_blank"
                                 >
-                                    terminatorul.eu
+                                    meniuldebani.ro
                                 </a>
                             </li>
                             <li>
                                 <strong>E-mail contact GDPR:</strong>{' '}
-                                <a href="mailto:vali@terminatorul.eu">
-                                    vali@terminatorul.eu
+                                <a href="mailto:privacy@meniuldebani.ro">
+                                    privacy@meniuldebani.ro
                                 </a>
                             </li>
                             <li>
                                 <strong>
                                     Responsabil cu protecția datelor:
                                 </strong>{' '}
-                                Stan Valentin Cristian
+                                Florin Alexandru Radu
                             </li>
                         </ul>
                         <p>
@@ -104,7 +104,6 @@ export default function PrivacyPolicy() {
                         </p>
 
                         <h2>2. Ce date colectăm</h2>
-                        <p>Colectăm următoarele date cu caracter personal:</p>
                         <ul>
                             <li>Nume</li>
                             <li>E-mail</li>
@@ -179,7 +178,7 @@ export default function PrivacyPolicy() {
                             Folosim Google Analytics pentru analiză statistică
                             anonimă. Datele pot fi transferate în SUA, în
                             condiții de securitate (Clauze Contractuale
-                            Standard). Puteți opta pentru dezactivare accesând:
+                            Standard). Puteți opta pentru dezactivare accesând:{' '}
                             <a
                                 href="https://tools.google.com/dlpage/gaoptout"
                                 target="_blank"
@@ -202,12 +201,12 @@ export default function PrivacyPolicy() {
                         </p>
                         <ul>
                             <li>
-                                <strong>Nume:</strong> Stan Valentin Cristian
+                                <strong>Nume:</strong> Florin Alexandru Radu
                             </li>
                             <li>
                                 <strong>E-mail:</strong>{' '}
-                                <a href="mailto:vali@terminatorul.eu">
-                                    vali@terminatorul.eu
+                                <a href="mailto:privacy@meniuldebani.ro">
+                                    privacy@meniuldebani.ro
                                 </a>
                             </li>
                         </ul>

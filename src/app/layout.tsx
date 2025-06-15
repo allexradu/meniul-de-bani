@@ -20,25 +20,25 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://terminatorul.eu'),
-    title: 'Terminatorul de Insecte - Dezinsecție, Deratizare și Dezinfectie',
+    metadataBase: new URL('https://meniuldebani.ro'),
+    title: 'Meniul de Bani – Dublează vânzările restaurantului',
     description:
-        'Service de dezinsecție, deratizare și dezinfectie în București și Ilfov. Oferim soluții profesionale pentru combaterea dăunătorilor.',
+        'Crește valoarea comenzilor fără efort. Meniul nostru inteligent te ajută să vinzi mai mult, natural – fără presiune pe client sau personal.',
     authors: [{ name: 'Radergy S.R.L.', url: 'https://radergy.ro' }],
-    creator: 'S.C.David Marian DDD Brand S.R.L',
-    category: 'Pest Control',
-    classification: 'Business',
+    creator: 'Radergy S.R.L.',
+    category: 'Restaurant Marketing',
+    classification: 'Business, Sales Optimization, Restaurant Growth',
     keywords: [
-        'pest control',
-        'dezinsectie',
-        'deratizare',
-        'dezinfectie',
-        'Bucuresti',
-        'Ilfov',
-        'insect removal',
-        'rodent control',
-        'professional services',
-        'Terminatorul de Insecte',
+        'meniuri inteligente',
+        'creștere vânzări restaurant',
+        'meniul de bani',
+        'meniuri care vând',
+        'funnel de vânzare restaurant',
+        'creștere profit ospitalitate',
+        'branding restaurant',
+        'optimizare meniu',
+        'meniuri strategice',
+        'dublare încasări restaurant',
     ],
     icons: {
         icon: [
@@ -53,30 +53,30 @@ export const metadata: Metadata = {
         apple: [{ url: '/images/apple-touch-icon.png', sizes: '180x180' }],
     },
     openGraph: {
-        title: 'Terminatorul de Insecte - Dezinsecție, Deratizare și Dezinfectie',
+        title: 'Meniul de Bani – Dublează vânzările restaurantului',
         description:
-            'Service de dezinsecție, deratizare și dezinfectie în București și Ilfov. Oferim soluții profesionale pentru combaterea dăunătorilor.',
-        url: 'https://terminatorul.eu',
+            'Crește valoarea comenzilor fără efort. Meniul nostru inteligent te ajută să vinzi mai mult, natural – fără presiune pe client sau personal.',
+        url: 'https://meniuldebani.ro',
         images: [
             {
                 url: '/images/banner.png',
-                width: 1024,
-                height: 1024,
-                alt: 'Terminatorul de Insecte - Dezinsecție, Deratizare și Dezinfectie',
+                width: 1200,
+                height: 630,
+                alt: 'Dublează vânzările restaurantului cu meniul nostru inteligent',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Terminatorul de Insecte - Dezinsecție, Deratizare și Dezinfectie',
+        title: 'Meniul de Bani – Dublează vânzările restaurantului',
         description:
-            'Service de dezinsecție, deratizare și dezinfectie în București și Ilfov. Oferim soluții profesionale pentru combaterea dăunătorilor.',
+            'Crește valoarea comenzilor fără efort. Meniul nostru inteligent te ajută să vinzi mai mult, natural – fără presiune pe client sau personal.',
         images: [
             {
                 url: '/images/banner.png',
-                width: 1024,
-                height: 1024,
-                alt: 'Terminatorul de Insecte - Dezinsecție, Deratizare și Dezinfectie',
+                width: 1200,
+                height: 630,
+                alt: 'Dublează încasările cu meniul nostru inteligent',
             },
         ],
     },

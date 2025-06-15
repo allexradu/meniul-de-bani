@@ -15,7 +15,7 @@ const Container = styled.div<{ $isPromo?: boolean }>`
     margin-bottom: ${({ theme }: { theme: DefaultTheme }) =>
         theme.sizes[Size.SMALL]};
     border-radius: ${({ theme }: { theme: DefaultTheme }) =>
-        theme.components.form.borderRadius};
+        theme.components.contentContainer.borderRadius};
     border: ${({
         theme,
         $isPromo,
@@ -24,8 +24,8 @@ const Container = styled.div<{ $isPromo?: boolean }>`
         $isPromo?: boolean
     }) =>
         $isPromo
-            ? `1px solid ${theme.colors.components.button.danger}`
-            : theme.components.form.border};
+            ? `1px solid ${theme.colors.components.contentContainer.danger}`
+            : theme.colors.components.contentContainer.border};
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 `
 
@@ -47,6 +47,7 @@ const TitleBar = styled.div<{ $isPromo?: boolean }>`
         theme.fontWeights.bold};
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: ${({ theme }: { theme: DefaultTheme }) =>
         `${theme.components.form.borderRadius} ${theme.components.form.borderRadius} 0 0`};
 `

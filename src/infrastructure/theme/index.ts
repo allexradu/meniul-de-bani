@@ -9,6 +9,9 @@ export const theme = {
     fontWeights,
     sizes,
     components: {
+        contentContainer: {
+            borderRadius: '15px',
+        },
         form: {
             borderRadius: '15px',
             border: '2px solid rgba(0, 123, 255, 0.2)',

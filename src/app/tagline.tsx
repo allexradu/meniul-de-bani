@@ -19,8 +19,7 @@ export const TaglineComponent = styled.h1`
 export const Tagline: React.FC = () => {
     return (
         <TaglineComponent>
-            Terminatorul de Insecte - Servicii Profesionale de Deratizare,
-            Dezinsecție și Dezinfectare
+            Meniul de Bani – Dublează vânzările restaurantului
         </TaglineComponent>
     )
 }

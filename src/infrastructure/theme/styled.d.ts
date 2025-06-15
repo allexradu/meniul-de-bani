@@ -9,6 +9,11 @@ declare module 'styled-components' {
                 error: string
             }
             components: {
+                contentContainer: {
+                    border: string
+                    boxShadow: string
+                    danger: string
+                }
                 form: {
                     boxShadow: string
                 }
@@ -37,6 +42,9 @@ declare module 'styled-components' {
         }
         sizes: string[] // Allow string[] type
         components: {
+            contentContainer: {
+                borderRadius: string
+            }
             form: {
                 borderRadius: string
                 border: string

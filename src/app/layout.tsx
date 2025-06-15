@@ -6,7 +6,7 @@ import React from 'react'
 import './globals.css'
 import StyledComponentsRegistry from '@infra/theme/registry'
 
-const GTM_ID = 'GTM-PBR54FRV'
+const GTM_ID = 'GTM-5T2HJVDH'
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',

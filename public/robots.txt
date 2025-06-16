@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://terminatorul.eu/sitemap.xml
+Sitemap: https://meniuldebani.ro/sitemap.xml

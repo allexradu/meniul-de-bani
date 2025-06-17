@@ -26,7 +26,7 @@ export default function Home() {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             />
                         </VideoWrapper>
-                        <Link href="/">
+                        <Link href="mailto:contact@radergy.ro">
                             <ButtonWrapper>
                                 <Button>Descarcă mostrele GRATUIT</Button>
                             </ButtonWrapper>
